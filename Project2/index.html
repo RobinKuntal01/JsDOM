@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">BMI Calculator</div>
+    <div class="mainBox">
+        <span>Enter Height:</span><input type="text" placeholder="in Meters" id="height"  value="">
+        <span>Enter Weight:</span><input type="text" placeholder="in Kgs" id="weight" value="">
+        <button id="sumbit" onclick="bmi()">Submit</button>  <br><br>
+        <span>Your BMI:</span><p id="result"></p>
+    </div>
+    <p>Underweight: BMI is less than 18.5 </p>
+        <p> Healthy weight: BMI is 18.5 to <25</p>
+       <p>Overweight: BMI is 25.0 to <30</p> 
+        <p>Obese: BMI is 30.0 or higher</p> 
+    <script src="engine.js"></script>
+</body>
+</html>
