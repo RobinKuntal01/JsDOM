@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="heading">Welcome to Guess the Number</div><br><br>
+    <p>Guess the correct number between 1 to 100</p>
+    <div class="mainBox">
+        <label for="input">Enter the number:</label><input type="text" id="guess">
+        <label for="sbmtt"> <input type="button" value="Submit" id="sbmt"> </label>
+    </div>
+    <div class="secondBox">    
+        <h1 id="displayMsg" ></h1>
+        <p>Remaining guesses: <span id="remainingGuess"></span>  </p>
+        <p >Previous Guesses:  <span id="previousGuess" ></span> </p>
+        <p class="startOver"></p>
+    </div>
+    <script src="engine.js"></script>
+</body>
+</html>
