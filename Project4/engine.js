@@ -1,6 +1,6 @@
 // global variables
 
-randomNumber = parseInt(Math.random()*100+1)
+randomNumber = parseInt(Math.random()*1000+1)
 //console.log(randomNumber)
 let totalGuesses = 10;
 let previousGuessArr = [];
@@ -26,8 +26,8 @@ if(playGame){
 }
 
 function validateGuess(guess){
-    if (guess>100) {
-        let msg = `Enter a number less 100`
+    if (guess>1000) {
+        let msg = `Enter a number less 1000`
         alert(msg)
     }
     else if (guess<0) {
@@ -87,7 +87,7 @@ function endGame() {
 function newGame() {
     const newGameButton = document.querySelector('#newGame');
     newGameButton.addEventListener('click', function (e) {
-      randomNumber = parseInt(Math.random() * 100 + 1);
+      randomNumber = parseInt(Math.random() * 1000 + 1);
       previousGuessArr = [];
       totalGuesses = 10;
       previousGuess.innerHTML = '';
