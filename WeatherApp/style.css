@@ -11,5 +11,21 @@
     height: 300px;
     width: 300px;
     border-radius: 10px;
+    background-image: linear-gradient(to right,blue, white);
 
 }
+
+.detailsHere{
+    margin-top: 10px;
+    display: flex;
+}
+
+.col{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0rem;
+}
+
+/* .myButton{
+    background-color: blanchedalmond;
+} */
